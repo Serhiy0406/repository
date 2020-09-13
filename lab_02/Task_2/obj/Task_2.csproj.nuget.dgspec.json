@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\C# VS\\lab_02\\Task_2\\Task_2.csproj": {}
+    "C:\\Users\\USER\\Desktop\\C#VS\\lab_02\\Task_2\\Task_2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\C# VS\\lab_02\\Task_2\\Task_2.csproj": {
+    "C:\\Users\\USER\\Desktop\\C#VS\\lab_02\\Task_2\\Task_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\C# VS\\lab_02\\Task_2\\Task_2.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\C#VS\\lab_02\\Task_2\\Task_2.csproj",
         "projectName": "Task_2",
-        "projectPath": "C:\\Users\\USER\\Desktop\\C# VS\\lab_02\\Task_2\\Task_2.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\C#VS\\lab_02\\Task_2\\Task_2.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\C# VS\\lab_02\\Task_2\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\C#VS\\lab_02\\Task_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
