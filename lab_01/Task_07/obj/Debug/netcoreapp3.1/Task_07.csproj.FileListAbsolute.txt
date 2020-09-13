@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\bin\Debug\netcoreapp3.1\Task_07.exe
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\bin\Debug\netcoreapp3.1\Task_07.deps.json
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\bin\Debug\netcoreapp3.1\Task_07.runtimeconfig.json
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\bin\Debug\netcoreapp3.1\Task_07.runtimeconfig.dev.json
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\bin\Debug\netcoreapp3.1\Task_07.dll
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\bin\Debug\netcoreapp3.1\Task_07.pdb
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\obj\Debug\netcoreapp3.1\Task_07.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\obj\Debug\netcoreapp3.1\Task_07.AssemblyInfo.cs
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\obj\Debug\netcoreapp3.1\Task_07.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\obj\Debug\netcoreapp3.1\Task_07.dll
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\obj\Debug\netcoreapp3.1\Task_07.pdb
+C:\Users\USER\Desktop\C# VS\Task_01\Task_07\obj\Debug\netcoreapp3.1\Task_07.genruntimeconfig.cache
