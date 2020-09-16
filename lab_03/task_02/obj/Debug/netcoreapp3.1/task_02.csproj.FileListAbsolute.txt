@@ -1,0 +1,13 @@
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\bin\Debug\netcoreapp3.1\task_02.exe
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\bin\Debug\netcoreapp3.1\task_02.deps.json
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\bin\Debug\netcoreapp3.1\task_02.runtimeconfig.json
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\bin\Debug\netcoreapp3.1\task_02.runtimeconfig.dev.json
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\bin\Debug\netcoreapp3.1\task_02.dll
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\bin\Debug\netcoreapp3.1\task_02.pdb
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\obj\Debug\netcoreapp3.1\task_02.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\obj\Debug\netcoreapp3.1\task_02.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\obj\Debug\netcoreapp3.1\task_02.AssemblyInfo.cs
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\obj\Debug\netcoreapp3.1\task_02.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\obj\Debug\netcoreapp3.1\task_02.dll
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\obj\Debug\netcoreapp3.1\task_02.pdb
+C:\Users\USER\Desktop\C#VS\lab_03\task_02\obj\Debug\netcoreapp3.1\task_02.genruntimeconfig.cache
