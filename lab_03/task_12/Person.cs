@@ -1,0 +1,101 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace task_12
+{
+    class Person
+    {
+        private string name;
+        private List<Company> companies = new List<Company>();
+        private List<Pokemon> pokemons = new List<Pokemon>();
+        private List<Parents> parents = new List<Parents>();
+        private List<Children> childrens = new List<Children>();
+        private List<Car> cars = new List<Car>();
+        public string Name { get; set; }
+        public List<Company> Com { get; set; }
+        public List<Pokemon> Pok { get; set; }
+        public List<Parents> Par { get; set; }
+        public List<Children> Chi { get; set; }
+        public List<Car> Ca { get; set; }
+
+        public Person(string word, string name , string other )
+        {
+            if(word == "pokemon")
+            {
+                Pok = new List<Pokemon>();
+                Pok.Add(new Pokemon(name, other));
+            }
+            if (word == "parents")
+            {
+                Par = new List<Parents>();
+                Par.Add(new Parents(name, other));
+            }
+            if (word == "children")
+            {
+                Chi = new List<Children>();
+                Chi.Add(new Children(name, other));
+            }
+        }
+        public Person(string name , string department, float salary)
+        {
+            Com = new List<Company>();
+            Com.Add(new Company(name , department, salary));
+        }
+        public Person(string model, int speed)
+        {
+            Ca = new List<Car>();
+            Ca.Add(new Car(model, speed));
+        }
+        public void AddInformation(Company company)
+        {
+            Com = new List<Company>();
+            Com.Add(company);
+            Com.RemoveAt(0);
+        }
+        public void AddInformation(Car car)
+        {
+            Ca = new List<Car>();
+            Ca.Add(car);
+            Ca.RemoveAt(0);
+        }
+        public void AddInformation(Pokemon pokemon)
+        {
+            Pok = new List<Pokemon>();
+            Pok.Add(pokemon);
+        }
+        public void AddInformation(Parents parents)
+        {
+            Par = new List<Parents>();
+            Par.Add(parents);
+        }
+        public void AddInformation(Children children)
+        {
+            Chi = new List<Children>();
+            Chi.Add(children);
+        }
+        public void printOut()
+        {
+            Console.WriteLine($"{Name}");
+            Console.WriteLine($"Company:");
+            Console.WriteLine($"{Com[0].Name} {Com[0].Department} {Com[0].Salary: 0.00}");
+            Console.WriteLine($"Car:");
+            Console.WriteLine($"{Ca[0].Model} {Ca[0].Speed}");
+            Console.WriteLine($"Pokemon:");
+            for(int i = 0; i < Pok.Count; i++)
+            {
+                Console.WriteLine($"{Pok[i].Name} {Pok[i].Type}");
+            }
+            Console.WriteLine($"Parents:");
+            for (int i = 0; i < Par.Count; i++)
+            {
+                Console.WriteLine($"{Par[i].Name} {Par[i].Birthday}");
+            }
+            Console.WriteLine($"Children:");
+            for (int i = 0; i < Chi.Count; i++)
+            {
+                Console.WriteLine($"{Chi[i].Name} {Chi[i].Birthday}");
+            }
+        }
+    }
+}
