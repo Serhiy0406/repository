@@ -31,44 +31,52 @@ namespace task_12
                             {
                                 company = new Company(s[2],s[3],float.Parse(s[4]));
                                 people[j].AddInformation(company);
+                                b = true;
+                                break;
                             }
                             if (s[1] == "pokemon")
                             {
                                 pokemon = new Pokemon(s[2], s[3]);
                                 people[j].AddInformation(pokemon);
+                                b = true;
+                                break;
                             }
                             if (s[1] == "parents")
                             {
                                 parents = new Parents(s[2], s[3]);
                                 people[j].AddInformation(parents);
+                                b = true;
+                                break;
                             }
-                            if (s[1] == "pokemon")
+                            if (s[1] == "children")
                             {
                                 children = new Children(s[2], s[3]);
                                 people[j].AddInformation(children);
+                                b = true;
+                                break;
                             }
                             if (s[1] == "car")
                             {
                                 car = new Car(s[2], int.Parse(s[3]));
                                 people[j].AddInformation(car);
-                            }
-                            b = true;
-                            break;
+                                b = true;
+                                break;
+                            }                           
                         }
                     }
                     if(b == false)
                     {
                         if (s[1] == "pokemon" || s[1] == "parents" || s[1] == "children")
                         {
-                            people.Add(new Person(s[1], s[2], s[3]));
+                            people.Add(new Person(s[0],s[1], s[2], s[3]));
                         }
                         if (s[1] == "company")
                         {
-                            people.Add(new Person(s[2], s[3], float.Parse(s[4])));
+                            people.Add(new Person(s[0],s[2], s[3], float.Parse(s[4])));
                         }
                         if(s[1]== "car")
                         {
-                            people.Add(new Person(s[2],int.Parse(s[3])));
+                            people.Add(new Person(s[0],s[2],int.Parse(s[3])));
                         }
                     }
                 }

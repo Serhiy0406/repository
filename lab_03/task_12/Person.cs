@@ -19,68 +19,96 @@ namespace task_12
         public List<Children> Chi { get; set; }
         public List<Car> Ca { get; set; }
 
-        public Person(string word, string name , string other )
+        public Person(string namePer , string word, string name , string other )
         {
-            if(word == "pokemon")
-            {
-                Pok = new List<Pokemon>();
+            Com = new List<Company>();
+            Ca = new List<Car>();
+            Par = new List<Parents>();
+            Pok = new List<Pokemon>();
+            Chi = new List<Children>();
+            Name = namePer;
+            if (word == "pokemon")
+            {            
                 Pok.Add(new Pokemon(name, other));
             }
             if (word == "parents")
             {
-                Par = new List<Parents>();
+                
                 Par.Add(new Parents(name, other));
             }
             if (word == "children")
             {
-                Chi = new List<Children>();
+                
                 Chi.Add(new Children(name, other));
             }
         }
-        public Person(string name , string department, float salary)
+        public Person(string namePer,string name , string department, float salary)
         {
             Com = new List<Company>();
+            Ca = new List<Car>();
+            Par = new List<Parents>();
+            Pok = new List<Pokemon>();
+            Chi = new List<Children>();
+            Name = namePer;
             Com.Add(new Company(name , department, salary));
         }
-        public Person(string model, int speed)
+        public Person(string namePer,string model, int speed)
         {
+            Com = new List<Company>();
             Ca = new List<Car>();
+            Par = new List<Parents>();
+            Pok = new List<Pokemon>();
+            Chi = new List<Children>();
+            Name = namePer;
             Ca.Add(new Car(model, speed));
         }
         public void AddInformation(Company company)
         {
-            Com = new List<Company>();
+            
             Com.Add(company);
-            Com.RemoveAt(0);
+            if (Com.Count > 0)
+            {
+                Com.RemoveAt(0);
+            }      
         }
         public void AddInformation(Car car)
         {
-            Ca = new List<Car>();
+            
             Ca.Add(car);
-            Ca.RemoveAt(0);
+            if (Ca.Count > 0)
+            {
+                Ca.RemoveAt(0);
+            }
+            
         }
         public void AddInformation(Pokemon pokemon)
         {
-            Pok = new List<Pokemon>();
+            
             Pok.Add(pokemon);
         }
         public void AddInformation(Parents parents)
         {
-            Par = new List<Parents>();
+            
             Par.Add(parents);
         }
         public void AddInformation(Children children)
         {
-            Chi = new List<Children>();
+            
             Chi.Add(children);
         }
         public void printOut()
         {
             Console.WriteLine($"{Name}");
             Console.WriteLine($"Company:");
-            Console.WriteLine($"{Com[0].Name} {Com[0].Department} {Com[0].Salary: 0.00}");
+            if (Com.Count > 0)
+            {
+                Console.WriteLine($"{Com[0].Name} {Com[0].Department} {Com[0].Salary}");
+            }  
             Console.WriteLine($"Car:");
-            Console.WriteLine($"{Ca[0].Model} {Ca[0].Speed}");
+            if (Ca.Count > 0)
+            {
+                Console.WriteLine($"{Ca[0].Model} {Ca[0].Speed}");
+            }
             Console.WriteLine($"Pokemon:");
             for(int i = 0; i < Pok.Count; i++)
             {
