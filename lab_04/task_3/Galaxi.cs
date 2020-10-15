@@ -6,8 +6,6 @@ namespace task_3
 {
     class Galaxi
     {
-        public List<int> Ivo = new List<int>();
-        public List<int> Evil = new List<int>();
         public int[,] dimention;
         public void Input(int n, int m)
         {
@@ -22,51 +20,19 @@ namespace task_3
                 }
             }
         }
-        public void IvoAdd(int x, int y)
+        public static void Compare(Ivo ivo, Evil evil)
         {
-            int max_i = dimention.GetLength(0);
-            int max_j = dimention.GetLength(1);
-            do
-            {           
-                Ivo.Add(dimention[x, y]);
-                x++;
-                y++;
-            }
-            while (max_i > x && max_j > y);
-        }
-        public void EvilAdd(int x, int y)
-        {
-            int max_i = dimention.GetLength(0)-1;
-            int max_j = dimention.GetLength(1)-1;
-            do
-            {                
-                Evil.Add(dimention[x, y]);
-                x++;
-                y++;
-            }
-            while (max_i > x && max_j > y);
-        }
-
-        public void Check()
-        {
-            for(int i = 0; i < Ivo.Count; i++)
+            for(int i = 0; i < ivo.Stars.Count; i++)
             {
-                for(int j = 0; j < Evil.Count; j++)
+                for(int j = 0; j < evil.Stars.Count; j++)
                 {
-                    if (Ivo[i] == Evil[j])
-                        Ivo.RemoveAt(i);
+                    if (ivo.Stars[i] == evil.Stars[j])
+                    {   
+                        ivo.Suma -= ivo.Stars[i];
+                        break;
+                    }
                 }
             }
-        }
-
-        public int Suma()
-        {
-            int suma = 0;
-            for (int j = 0; j < Ivo.Count; j++)
-            {
-                suma += Ivo[j];
-            }
-            return suma;
         }
     }
 }
