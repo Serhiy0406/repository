@@ -48,7 +48,8 @@ namespace task_6
                                 b = true;
                                 return b;
                             }
-                            if ((place[i, k] == 'N' && j <= k) || (place[i, k] == 'N' && j >= k))
+                            //if ((place[i, k] == 'N' && j <= k) || (place[i, k] == 'N' && j >= k))
+                            if(place[i,k]=='N')
                             {
                                 place[i, k] = 'X';
                                 Console.WriteLine($"Nikoladze killed!");
@@ -106,33 +107,34 @@ namespace task_6
                     {
                         if (direction == 'U')
                         {
-                            if(place[i-1,j]=='b' || place[i - 1, j]== 'd' || place[i - 1, j] == '.')
-                            {
+                            
                                 place[i, j] = '.';
                                 place[i - 1, j] = 'S';
-                            }
+                                return;
                         }
+                        
                         if (direction == 'D')
                         {
-                            if (place[i + 1, j] == 'b' || place[i + 1, j] == 'd' || place[i + 1, j] == '.')
-                            {
-                                place[i, j] = '.';
+                            place[i, j] = '.';
                                 place[i + 1, j] = 'S';
-                            }
+                                return;
                         }
                         if (direction == 'L')
                         {
                             place[i, j] = '.';
                             place[i, j - 1] = 'S';
+                            return;
                         }
                         if (direction == 'R')
                         {
+                           
                             place[i, j] = '.';
                             place[i, j + 1] = 'S';
+                            return;
                         }
                         if (direction == 'W')
                         {
-                            
+                            return;
                         }
                     }
                 }
