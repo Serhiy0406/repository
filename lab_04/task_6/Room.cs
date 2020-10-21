@@ -107,17 +107,16 @@ namespace task_6
                     {
                         if (direction == 'U')
                         {
-                            
-                                place[i, j] = '.';
-                                place[i - 1, j] = 'S';
-                                return;
+                            place[i, j] = '.';
+                            place[i - 1, j] = 'S';
+                            return;
                         }
                         
                         if (direction == 'D')
                         {
                             place[i, j] = '.';
-                                place[i + 1, j] = 'S';
-                                return;
+                            place[i + 1, j] = 'S';
+                            return;
                         }
                         if (direction == 'L')
                         {
