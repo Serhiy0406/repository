@@ -8,24 +8,6 @@ namespace task_08
     {
         public void Sort()
         {
-/*            List<T> list2 = new List<T>();
-            list2 = List;
-            foreach (var i in list2)
-            {
-                Console.WriteLine(i);
-            }
-            for (int i = 0; i < list2.Count; i++)
-            {
-                if (i > 0 && list2[i-1]>Min())
-                list2[i] = Min();
-                List.Remove(Min());
-            }
-            foreach(var i in list2)
-            {
-                i = Min();
-
-            }
-            List= list2;*/
             for(int i = 0; i < List.Count; i++)
             {
                 for(int j=0; j < List.Count; j++)
