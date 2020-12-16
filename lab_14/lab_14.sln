@@ -13,19 +13,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task_04", "task_04\task_04.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task_05", "task_05\task_05.csproj", "{66DF3382-DE89-400F-B333-2801E9D71F3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task_06", "task_06\task_06.csproj", "{77219213-3177-4395-A694-51FA2C8E6050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task_06", "task_06\task_06.csproj", "{77219213-3177-4395-A694-51FA2C8E6050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task_07", "task_07\task_07.csproj", "{4458FB58-030F-4A92-BB28-CD8C391CCCE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task_07", "task_07\task_07.csproj", "{4458FB58-030F-4A92-BB28-CD8C391CCCE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task_08", "task_08\task_08.csproj", "{F8C12793-489F-4A0A-B369-9091054E48EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task_08", "task_08\task_08.csproj", "{F8C12793-489F-4A0A-B369-9091054E48EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task_09", "task_09\task_09.csproj", "{2799916F-8EA8-412E-8D16-8BE975381CA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task_09", "task_09\task_09.csproj", "{2799916F-8EA8-412E-8D16-8BE975381CA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task_10", "task_10\task_10.csproj", "{62B1E10D-C0E1-4012-B5CF-7E06A2D90047}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task_10", "task_10\task_10.csproj", "{62B1E10D-C0E1-4012-B5CF-7E06A2D90047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task_11", "task_11\task_11.csproj", "{91C3CDBC-7162-48F6-AB8C-BBD370524AA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task_11", "task_11\task_11.csproj", "{91C3CDBC-7162-48F6-AB8C-BBD370524AA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task_12", "task_12\task_12.csproj", "{F5A9B1F2-8A33-4A3D-8CBB-5BEF6ADB8E7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task_12", "task_12\task_12.csproj", "{F5A9B1F2-8A33-4A3D-8CBB-5BEF6ADB8E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task_13", "task_13\task_13.csproj", "{4F63951F-90E6-49DD-8577-148D77E21EB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{F5A9B1F2-8A33-4A3D-8CBB-5BEF6ADB8E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5A9B1F2-8A33-4A3D-8CBB-5BEF6ADB8E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5A9B1F2-8A33-4A3D-8CBB-5BEF6ADB8E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F63951F-90E6-49DD-8577-148D77E21EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F63951F-90E6-49DD-8577-148D77E21EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F63951F-90E6-49DD-8577-148D77E21EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F63951F-90E6-49DD-8577-148D77E21EB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
