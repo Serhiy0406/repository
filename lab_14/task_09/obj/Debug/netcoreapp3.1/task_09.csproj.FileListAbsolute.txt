@@ -10,3 +10,4 @@ C:\Users\USER\Desktop\C#VS\lab_14\task_09\obj\Debug\netcoreapp3.1\task_09.csproj
 C:\Users\USER\Desktop\C#VS\lab_14\task_09\obj\Debug\netcoreapp3.1\task_09.dll
 C:\Users\USER\Desktop\C#VS\lab_14\task_09\obj\Debug\netcoreapp3.1\task_09.pdb
 C:\Users\USER\Desktop\C#VS\lab_14\task_09\obj\Debug\netcoreapp3.1\task_09.genruntimeconfig.cache
+C:\Users\USER\Desktop\C#VS\lab_14\task_09\obj\Debug\netcoreapp3.1\task_09.csprojAssemblyReference.cache
